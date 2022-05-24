@@ -1,0 +1,41 @@
+
+/* ajeitar o espaçamento do cadastro */
+
+/* criando o contexto de estilo nativo */
+h1 {
+    font-size: 14px;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* criando um estilo de classe */
+.cab_especial {
+    background-color: burlywood;
+    font-size: 18px;
+    font-weight: bolder;
+}
+body {
+    background-color: beige;
+    background-image: url(/1-HTML/imagens/foto2.jpeg);
+        
+}
+/*.formatacao_campos{
+    background-color:gray;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}*/
+
+
+
+.campo_nome{
+    width:400px;
+    background-color: white;
+    margin-left: 3%;
+    /*ajusta o campo formulario */
+}
+.campo_email{
+    width: 400px;
+    background-color: white;
+    margin-left: 6%;
+}
